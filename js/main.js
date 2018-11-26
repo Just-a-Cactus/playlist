@@ -94,7 +94,7 @@
 
         if (audio === undefined) {
 
-            audio = new Audio('../music/' + flex.getAttribute("song") + '.mp3');
+            audio = new Audio('./music/' + flex.getAttribute("song") + '.mp3');
             audio.play();
 
         } else {
@@ -102,7 +102,7 @@
             if (audio.src.indexOf(tryAudio) > -1) {
                 audio.play();
             } else {
-                audio = new Audio('../music/' + flex.getAttribute("song") + '.mp3');
+                audio = new Audio('./music/' + flex.getAttribute("song") + '.mp3');
                 audio.play();
             }
         }
