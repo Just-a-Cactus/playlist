@@ -1,0 +1,137 @@
+body {
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+	display: inline-block;
+}
+
+progress {
+	display: none;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {}
+
+textarea {}
+
+/* Layout */
+.ba-container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ba-list {
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 30px 20px 20px;
+	background: white;
+	border-radius: 25px;
+	box-shadow: 0 0 10px 3px rgba(0, 0, 0, .2);
+}
+
+.ba-list h3 {
+	text-align: center;
+	line-height: 1;
+	font-weight: 500;
+	margin: 0;
+	color: #574d72;
+	padding-bottom: 30px;
+}
+
+h4 {
+	color: #574d72;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+h4::first-letter {
+	text-transform: uppercase;
+}
+
+.ba-list__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ba-list__list li {
+	color: #a4a3a9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ba-list__list li:nth-child(2n+1) {
+	border-top: 1px solid #a4a3a9;
+}
+
+.ba-list__list li progress {
+	width: 100%;
+}
+
+.ba-list__list li p {
+	font-size: 90%;
+}
+
+svg:hover {
+	color: red;
+}
+
+.ba-flex {
+	display: flex;
+	align-items: center;
+}
+
+.ba-flex svg {
+	margin-right: 10px;
+}
+
+.ba-flex div p {
+	text-transform: capitalize;
+}
+
+.ba-flex svg:hover {
+	color: blue;
+}
+
+.pauseButton {
+	display: none;
+}
